@@ -33,11 +33,11 @@ This is hosted by a webserver or can be a json response from the endpoint and co
 
 ```json
 {
-    "type": "esp8266-fota-http",
+    "type": "bathroom_lights",
     "version": 3,
-    "host": "192.168.2.100",
+    "host": "192.168.0.100",
     "port": 80,
-    "bin": "/fota/esp8266-fota-http-3.bin"
+    "bin": "/updates/bathroom.bin"
 }
 ```
 
