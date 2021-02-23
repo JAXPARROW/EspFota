@@ -1,9 +1,0 @@
-[
-{
-"type": "bedroom_lights",
-"version": 2,
-"host": "192.168.0.105",
-"port": 80,
-"bin": "/updates/test.bin"
-}
-]
