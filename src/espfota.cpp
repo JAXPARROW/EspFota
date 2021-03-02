@@ -201,12 +201,12 @@ bool EspFota::execHTTPcheck()
     if (useDeviceID)
     {
         // String deviceID = getDeviceID() ;
-        useURL = checkUpdateURL + "?id=" + getDeviceID();
+        useURL = checkUpdateURL + "?device_id=" + getDeviceID();
     }
     if (useDeviceMAC)
     {
         // String DeviceMAC = getDeviceMAC() ;
-        useURL = checkUpdateURL + "?id=" + getDeviceMAC();
+        useURL = checkUpdateURL + "?mac_address=" + getDeviceMAC();
     }
     else
     {
