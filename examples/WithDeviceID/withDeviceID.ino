@@ -22,7 +22,7 @@ const char *ssid = "";
 const char *password = "";
 
 // EspFota fota("<Type of Firme for this device>", <this version>);
-Espfota fota("bedroom_lights", 1);
+EspFota fota("bedroom_lights", 1);
 
 void setup()
 {
